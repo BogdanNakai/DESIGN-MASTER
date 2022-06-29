@@ -1,0 +1,806 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before,*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus, :active {outline: none;}
+a:focus,a:active {
+	outline: none;
+} 
+
+nav,footer,header,aside {
+	display: block;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a,a:visited {text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+	font-size: 16px;
+	line-height: 32px;
+	color: #575455;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header {
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+
+.container {
+	max-width: 1332px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.container__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo__link {
+	display: flex;
+	align-items: center;
+}
+
+.logo__img {
+	padding-right: 12px;
+}
+
+.logo__text {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 42px;
+	color: #070F18;
+}
+
+.nav__menu {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.menu__link {
+	padding: 10px 15px;
+	line-height: 24px;
+	text-align: center;
+	color: #070F18;
+	transition: all 0.3s;
+}
+
+.menu__link:hover {
+	box-shadow: 0px 13px 0px -12px #000102;
+}
+
+.menu__link:active {
+	color: #788492;
+	box-shadow: 0px 13px 0px -12px #788492;
+}
+
+.menu__link_active {
+	font-weight: 600;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.link-sign {
+	color: #070F18;
+	background-color: #F5F6FB;
+	transition: all 0.5s;
+}
+
+.link-sign_size {
+	width: 150px;
+	height: 48px;
+}
+
+.link-sign:hover {
+	color: #070F18;
+	background-color: #d1d0d0;
+}
+
+.link-sign:active {
+	color: #070F18;
+	background-color: #e6e6e6;
+}
+
+/*---------------------------1Section------------------------------------------*/
+
+.main__manage-payroll {
+	padding-bottom: 130px;
+}
+
+.container-2 {
+    max-width: 1239px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.container-2__manage-payroll {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	padding-bottom: 71px;
+}
+
+.manage-payroll__left {
+	padding-top: 37px;
+}
+
+
+.manage-payroll__title-1 {
+	margin-bottom: 20px;
+}
+
+.title {
+	font-weight: bold;
+	color: #000000;
+}
+
+.title_h1 {
+	font-size: 55px;
+	line-height: 82px;
+	max-width: 443px;
+	margin: 0;
+	margin-bottom: 22px;
+}
+
+.manage-payroll__text {
+	max-width: 423px;
+	margin-bottom: 30px; 
+}
+
+.btn__button {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.button_blue {
+	width: 180px;
+	height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #1F7CFF;
+	font-weight: 600;
+	transition: all 0.4s;
+}
+
+.button_blue:hover {
+	background-color: #4d97fd;
+}
+
+.button_blue:active {
+	background-color: #6aa8ff;
+}
+
+.manage-payroll__right {
+	position: relative;
+}
+
+.manage-payroll__img {
+	margin-right: 30px;
+}
+
+.manage-rayroll__export {
+	position: absolute;
+    top: 52px;
+	right: -10px;  
+	min-width: 213px;
+	height: 66px;
+	z-index: 3;
+	border-radius: 16px;
+	background-color: #fff;
+	padding: 13px;
+	box-shadow: -7px 9px 18px rgba(0, 0, 0, 0.05);
+}
+
+.manage-payroll__analytics {
+	position: absolute;
+	top: 133px;
+	left: -106px;
+	z-index: 2;
+	min-width: 213px;
+	height: 155px;
+	border-radius: 16px;
+	background-color: #fff;
+	padding: 13px;
+	box-shadow: -7px 9px 18px rgba(0, 0, 0, 0.05);
+}
+
+.manage-rayroll_block-text {
+	display: flex;
+}
+
+.manage-rayroll_block-text_analytics {
+	margin-bottom: 12px;
+}
+
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 12px;
+}
+
+.info__title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #070F18;
+	margin-bottom: 2px;
+}
+
+.info__text {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #191046;
+}
+
+.manage-payroll__row-companion {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1164px;
+}
+
+.row-companion__text {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #070F18;
+}
+
+
+.row-companion__row-element {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.row-companion__block {
+	height: 30px;
+}
+
+.row-companion__img {
+	height: 100%;
+}
+
+/* --------------------------------------2Section ---------------------------*/
+
+.business__block {
+	padding: 0 41px 130px 45px
+}
+
+.business__work {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 70px;
+}
+
+.work__block-text {
+	max-width: 386px;
+}
+
+.position__title {
+	display: flex;
+	flex-direction: column;
+	font-size: 36px;
+	line-height: 54px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.title__sup-title {
+	padding-bottom: 6px;
+}
+
+.sup-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	/* identical to box height */
+	text-align: center;
+	color: #F75C4E;
+}
+
+.work__text {
+	text-align: center;
+}
+
+.business__benefits {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 60px;
+}
+
+.benefits__content {
+	display: flex;
+	flex: 0 1 311px;
+}
+
+.benefits__content_posit {
+	margin-left: 10px;
+}
+
+.benefits__circle {
+	margin-right: 24px;
+}
+
+.circle_size{
+	min-width: 60px;
+	min-height: 60px;
+
+}
+.circle_blue {
+	background: #1F7CFF;
+}
+
+.benefits__title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #070F18;
+	margin-bottom: 12px;
+}
+
+.benefits__text{
+	max-width: 227px;
+}
+
+.circle_red {
+	background: #F75C4E;
+}
+
+.circle_darck-blue {
+	background: #191046;
+}
+
+.circle_pink {
+	background: #FF1FB3;
+}
+
+.circle_violet {
+	background: #5C4EF7;
+}
+
+.circle_yellov {
+	background: #F7954E;
+}
+/* ------------------------------------------------------video-------------------------------- */
+
+.container-3 {
+    max-width: 1177px;
+    margin: 0 auto;
+    padding: 0px 22px;
+}
+
+.productivity__container-3 {
+	display: flex;
+	column-gap: 71px;
+	padding-bottom: 125px;
+}
+
+.left-video__video {
+	width: 636px;
+	height: 450px;
+	border-radius: 40px;
+}
+
+.productivity__right-text {
+	padding-top: 98px;
+}
+
+.productivity__block-text {
+	padding-bottom: 39px;
+}
+
+.productivity__text {
+	max-width: 388px;
+}
+
+.productivity__sup-title {
+	text-align: left;
+}
+
+.productivity_title {
+	text-align: left;
+}
+
+.productivity__form {
+	position: relative;
+	display: inline-block;
+}
+
+.form__input-email {
+	width: 299px;
+	height: 48px;
+	background: #F5F6FB;
+	border-radius: 50px;
+	font-size: 16px;
+	line-height: 24px;
+	/* identical to box height */
+	color: #575455;
+	padding: 12px 24px;
+	transition: background 0.38s;
+}
+
+.form__input-email:hover {
+	background: #d3d4d4;
+}
+
+.form__input-email:focus{
+	background: #e9ecfc;
+}
+
+.form__button{
+	position: absolute;
+	top: 0;
+	right: -129px;
+}
+
+/* <-------------------------------------Table-----------------------------------> */
+@media (max-width: 1160px) {
+
+	.productivity__container-3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 124px;
+	}
+
+	.left-video__video {
+		height: 370px;
+		width: 522px;
+	}
+
+	.productivity__right-text {
+		padding-top: 40px;
+	}
+
+	.productivity_title {
+		align-items: center;
+	}
+
+	.productivity__text {
+		max-width: 426px;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 1150px) {
+	.header {
+		padding-bottom: 65px;
+	}
+
+	.manage-payroll__right {
+		display: none;
+	}
+
+	.manage-payroll__left {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.title_h1 {
+		font-size: 55px;
+		line-height: 82px;
+		max-width: 443px;
+		text-align: center;
+	}
+
+	.manage-payroll__text {
+		text-align: center;
+	}
+}
+
+@media (max-width: 1100px) {
+
+	.business__block {
+		padding: 0 0px 128px 0px;
+	}
+
+	.manage-payroll__row-companion {
+		display: flex;
+		flex-direction: column;
+		row-gap: 29px;
+	}
+
+	.row-companion__block-text {
+		display: flex;
+		column-gap: 3px;
+	}
+
+	.business__benefits {
+		justify-content: space-between;
+		padding: 0 10px;
+	}
+
+	.benefits__content_posit {
+		margin-left: 0px;
+	}
+
+	.benefits__content_1 {
+		order: 1;
+	}
+
+	.benefits__content_2 {
+		order: 2;
+	}
+
+	.benefits__content_3 {
+		order: 3;
+	}
+
+	.benefits__content_4 {
+		order: 6;
+	}
+
+	.benefits__content_5 {
+		order: 6;
+	}
+
+	.benefits__content_6 {
+		order: 4;
+	}
+
+}
+
+@media (max-width: 925px) {
+	.nav__menu {
+		display: none;
+	}
+}
+
+/*<-------------------------------------Mobail-----------------------------------> */
+
+
+@media (max-width: 768px) { 
+	.row-companion__row-element {
+		display: flex;
+		align-items: center;
+		justify-self: start;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+}
+
+@media (max-width: 690px) {
+
+	.business__benefits {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		column-gap: 30px;
+		row-gap: 60px;
+	}
+
+	.benefits__text{
+		max-width: 229px;
+	}
+
+	.benefits__content_1 {
+		order: 1;
+	}
+
+	.benefits__content_2 {
+		order: 4;
+	}
+
+	.benefits__content_3 {
+		order: 2;
+	}
+
+	.benefits__content_4 {
+		order: 3;
+	}
+
+	.benefits__content_5 {
+		order: 6;
+	}
+
+	.benefits__content_6 {
+		order: 5
+	}
+
+	.left-video__video {
+		height: 228px;
+		width: 321px;
+		border-radius: 23px;
+	}
+
+	.business__block {
+		padding: 0 0px 81px 0px;
+	}
+
+	.productivity__right-text {
+		padding-top: 29px;
+	}
+
+}
+
+
+@media (max-width: 500px) {
+
+	.header {
+		padding-top: 40px;
+		padding-bottom: 25px;
+	}
+
+	.manage-payroll__left {
+		padding-top: 26px;
+	}
+
+	.title_h1 {
+		font-size: 38px;
+		line-height: 57px;
+		max-width: 443px;
+		text-align: left;
+	}
+
+	.position__title {
+		font-size: 28px;
+		line-height: 42px;
+		text-align: center;
+	}
+
+	.title__sup-title {
+		padding-bottom: 8px;
+	}
+
+	.manage-payroll__text {
+		text-align: left;
+		max-width: 319px;
+		margin-bottom: 27px;
+	}
+
+	.work__text {
+		max-width: 333px;
+	}
+
+	.manage-payroll__left {
+		align-items: baseline;
+	}
+
+	.manage-payroll__row-companion {
+		margin: 0 0px;
+		align-items: baseline;
+	}
+
+	.main__manage-payroll {
+		padding-bottom: 80px;
+	}
+
+	.business__work {
+		padding-bottom: 47px;
+	}
+
+	.productivity__form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		row-gap: 12px;
+	}
+
+	.form__button {
+		position: static;
+		flex: 1 1 48px;
+		width: 300px;
+	}
+
+	.benefits__circle {
+		margin-right: 19px;
+	}
+
+}
+
+
+@media (max-width: 435px) {
+
+	.container {
+		margin: 0 auto;
+		padding: 0 24px;
+	} 
+
+	.container-2__manage-payroll {
+		padding-bottom: 50px;
+	}
+
+	.link-sign {
+		display: none;
+	}
+
+	.manage-payroll__left {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.row-companion__row-element {
+		display: flex;
+		align-items: center;
+		justify-self: start;
+		flex-wrap: wrap;
+		column-gap: 23px;
+		row-gap: 32px;
+	}
+
+	.row-companion__block {
+		height: calc(30px - 4px);
+	}
+	
+	.row-companion__img {
+		height: 100%;
+		width: calc(88px - 10px);
+	}
+
+	.row-companion__img_size-2 {
+		width: calc(125px - 18px);
+	}
+
+	.row-companion__img_size-4 {
+		width: calc(100px - 12px);
+	}
+}
